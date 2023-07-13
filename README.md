@@ -1,4 +1,26 @@
-# Face_similarity_with-siamese_in_Pytorch
-Face similarity with siamese network usinh Pytorch
-The code uses AT&T dataset along with nine new face-folders to train the neural networks. The 9 new faces-folders included belongs to different celebrities from India and abroad. A ('unknown') folder containing One picture for each celebrity is created.
-After training of the network an image-features' file is created which also contains the label names. The image-feature data is then trained and tested on a classifier to identify the correct label names. The trained claddifier is used to identify the Name of the person(s) whose picture is kept unknown-folder.
+#Project Title
+Face Recognition with Siamese Network
+
+##Description
+This project aims to provide a face recognition solution using a Siamese Network architecture. The model is trained on the AT&T dataset, allowing it to extract meaningful features or representations from input images. By leveraging these representations, the system can accurately detect similarities between any two faces, enabling robust face recognition capabilities.
+
+##Key Features
+Utilizes the Siamese Network architecture for face recognition
+Trained on the AT&T dataset to extract effective facial representations
+Enables similarity detection between pairs of faces
+Provides a reliable face recognition solution
+.
+##Usage
+Ensure the model is trained and saved in a desired location.
+Use the provided functions or APIs to load the model and perform face recognition tasks.
+Provide input images to the model and retrieve dissimilarity scores.
+
+##Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+License
+This project is licensed under the [License Name] license. 
+
+Acknowledgements
+We would like to thank the creators of the AT&T dataset for providing the valuable resource used in this project.
+ 
